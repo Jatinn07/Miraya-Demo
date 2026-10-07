@@ -1,0 +1,6 @@
+{
+  "name": "Miraya Diamonds",
+  "description": "Luxury diamond jewellery brand celebrating craftsmanship, heritage, precision, and timeless personal moments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

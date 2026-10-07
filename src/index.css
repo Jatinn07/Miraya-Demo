@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, Cambria, serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --color-accent: #214E34;
+  --color-dark: #302326;
+  --color-dark-section: #211416;
+  --color-body: #75686A;
+  --color-page: #FFFAFA;
+  --color-soft-pink: #E7FFE6;
+  --color-light-pink: #E7FFE6;
+  --color-border-pink: #E7FFE6;
+
+  --text-xs: 0.875rem;
+  --text-xs--line-height: 1.25rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+  font-weight: 500; /* Default weight to medium */
+  background-color: #FFFAFA;
+  color: #302326;
+}
+
+.font-serif {
+  font-family: "Cormorant Garamond", Georgia, Cambria, serif;
+  font-weight: 700; /* Default display headings to bold */
+}
+
+.font-sans {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-weight: 500; /* Default secondary body to medium */
+}
+
+/* Subtle luxury glow */
+.luxury-glow {
+  box-shadow: 0 10px 30px -10px rgba(33, 78, 52, 0.08);
+}
+
+.card-subtle-border {
+  border: 1px solid #E7FFE6;
+}
+
