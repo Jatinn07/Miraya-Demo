@@ -113,7 +113,7 @@ export const Header: React.FC<HeaderProps> = ({
             className="inline-block group focus:outline-none py-1"
           >
             <img
-              src="/miraya_logo.png"
+              src="/miraya-logo.svg"
               alt="Miraya Diamonds – Elevating Love with Diamonds"
               className="h-9 sm:h-11 md:h-12 w-auto object-contain transition-transform group-hover:scale-[1.02]"
               referrerPolicy="no-referrer"
@@ -198,7 +198,7 @@ export const Header: React.FC<HeaderProps> = ({
             <div>
               <div className="flex items-center justify-between pb-4 border-b border-[#E7FFE6]">
                 <img
-                  src="/miraya_logo.png"
+                  src="/miraya-logo.svg"
                   alt="Miraya Diamonds"
                   className="h-8 w-auto object-contain"
                   referrerPolicy="no-referrer"

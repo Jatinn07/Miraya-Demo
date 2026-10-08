@@ -194,7 +194,7 @@ export const CollectionHeader: React.FC<CollectionHeaderProps> = ({
           className="cursor-pointer flex items-center group shrink-0 py-0.5"
         >
           <img
-            src="/miraya_logo.png"
+            src="/miraya-logo.svg"
             alt="Miraya Diamonds – Elevating Love with Diamonds"
             className="h-10 sm:h-12 md:h-13 w-auto object-contain transition-transform group-hover:scale-[1.02]"
             referrerPolicy="no-referrer"
@@ -496,7 +496,7 @@ export const CollectionHeader: React.FC<CollectionHeaderProps> = ({
                   }}
                 >
                   <img
-                    src="/miraya_logo.png"
+                    src="/miraya-logo.svg"
                     alt="Miraya Diamonds"
                     className="h-8 w-auto object-contain"
                     referrerPolicy="no-referrer"

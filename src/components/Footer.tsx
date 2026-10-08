@@ -114,77 +114,13 @@ export const Footer: React.FC<FooterProps> = ({
         <div className="flex flex-col lg:flex-row items-start justify-between gap-8 lg:gap-3 xl:gap-6">
           {/* COL 1: Monogram Logo, Brand Title, Description, Social Icons */}
           <div className="w-full lg:w-[28%] xl:w-[27%] shrink-0 space-y-4 lg:pr-2">
-            <div className="flex items-center gap-3.5">
-              {/* Ornate Gold Filigree Mandala Monogram with "MD" */}
-              <div className="w-13 h-13 shrink-0 relative flex items-center justify-center">
-                <svg
-                  viewBox="0 0 100 100"
-                  className="w-full h-full text-[#E2C479] drop-shadow-sm"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.6"
-                >
-                  <circle
-                    cx="50"
-                    cy="50"
-                    r="44"
-                    stroke="#DFC07A"
-                    strokeWidth="1.2"
-                    strokeDasharray="2 3"
-                    opacity="0.7"
-                  />
-                  <circle
-                    cx="50"
-                    cy="50"
-                    r="38"
-                    stroke="#E2C479"
-                    strokeWidth="1.4"
-                  />
-                  {/* Decorative Petals */}
-                  {[0, 45, 90, 135, 180, 225, 270, 315].map((deg) => (
-                    <g key={deg} transform={`rotate(${deg} 50 50)`}>
-                      <path
-                        d="M50 12 C44 26 44 34 50 42 C56 34 56 26 50 12 Z"
-                        stroke="#E2C479"
-                        fill="rgba(226, 196, 121, 0.08)"
-                        strokeWidth="1.2"
-                      />
-                      <circle cx="50" cy="20" r="1.5" fill="#E2C479" />
-                    </g>
-                  ))}
-                  <circle
-                    cx="50"
-                    cy="50"
-                    r="19"
-                    stroke="#E2C479"
-                    strokeWidth="1.2"
-                    fill="rgba(7, 14, 10, 0.95)"
-                  />
-                  {/* Central "MD" Monogram */}
-                  <text
-                    x="50"
-                    y="56"
-                    textAnchor="middle"
-                    fill="#E2C479"
-                    fontFamily="Cormorant Garamond, serif"
-                    fontSize="18"
-                    fontWeight="600"
-                    letterSpacing="0.05em"
-                  >
-                    MD
-                  </text>
-                </svg>
-              </div>
-
-              {/* Brand Title & Tagline in Exact Reference Gold Font Color */}
-              <div>
-                <span className="font-serif text-xl sm:text-[22px] font-semibold tracking-[0.14em] text-[#E2C479] uppercase block leading-tight">
-                  MIRAYA DIAMONDS
-                </span>
-                <span className="font-serif italic text-sm sm:text-[15px] text-[#C9AA66] tracking-wide block mt-1">
-                  Elevating Love with Diamonds
-                </span>
-              </div>
+            <div className="mb-2">
+              <img
+                src="/miraya-logo.svg"
+                alt="Miraya Diamonds"
+                className="h-10 sm:h-12 w-auto object-contain"
+                referrerPolicy="no-referrer"
+              />
             </div>
 
             {/* Description Text */}
